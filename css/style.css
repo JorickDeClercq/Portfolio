@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+
+    background-color: #fdf0d5;
+    color: #003049;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+h2,
+h3,
+p {
+    margin-bottom: 1em;
+}
+
+header{
+    padding: 2em;
+}
+
+ a{
+    text-decoration: none;
+
+    font-weight: 900;
+    
+    color: #003049;
+}
+
+main{
+    margin: 2rem;
+}
+
+div {
+    padding-bottom: 3em;
+}
+
+h1 {
+    font-size: clamp(2rem, 1rem + 10vw ,7rem);
+    padding-bottom: 0.4em;
+}
+
+#hero {
+    padding-top: 10em;
+    padding-bottom: 8.5em;
+}
+
+#hero p {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+#about img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    margin: 2em 0;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    border-bottom: 1px solid #003049;
+}
+
+@media (min-width: 768px) {
+    main {
+        margin: 0 15em;
+    }
+    
+}
