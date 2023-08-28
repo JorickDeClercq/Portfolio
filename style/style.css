@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    color-scheme: dark light;
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img,picture,svg,video {
+    display: block;
+    max-width: 100%;
+}
+
+header {
+    margin: 1em;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+header a {
+    display: none;
+}
+
+main {
+    padding: 0 2.5em 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover :active {
+    border-bottom: 2px solid black;
+}
+
+main > div {
+    padding: 3.7em 0;
+}
+
+.hero-wrapper {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-wrapper h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1em;;
+}
+
+.about p:first-of-type{
+    margin-bottom: 1em;
+}
+
+.about article {
+    margin-bottom: 2em;
+}
+
+.skills h4{
+    margin-bottom: 1em;
+}
+
+.skills p {
+    margin-bottom: 2em;
+}
+
+.contact p {
+    padding-bottom: 1em;
+}
