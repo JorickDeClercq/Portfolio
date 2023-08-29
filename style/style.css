@@ -24,7 +24,7 @@ img,picture,svg,video {
     max-width: 100%;
 }
 
-header {
+header, footer {
     margin: 2em;
 
     display: flex;
@@ -100,6 +100,11 @@ h3 {
     padding-bottom: 1em;
 }
 
+ul li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
 @media screen and (min-width: 768px) {
     main {
         padding: 0 12em;
@@ -115,7 +120,7 @@ h3 {
     }
 
     .hero-wrapper {
-        width: 70%;
+        width: 55%;
     }
 
     .hero-wrapper h2 {
